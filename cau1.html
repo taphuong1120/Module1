@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function findMax(listTestScore) {
+        let max = listTestScore[0];
+        for (var i = 1; i < listTestScore.length; i++) {
+            if (max < listTestScore[i]) {
+                max = listTestScore[i]
+            }
+        }
+        console.log(max)
+    }
+    let arr = [6, 7, 8, 9, 10];
+    findMax(arr);
+</script>
+</html>
